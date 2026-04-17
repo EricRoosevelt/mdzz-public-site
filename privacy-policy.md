@@ -16,7 +16,7 @@ MD摘摘是一款 Chrome 扩展，用于帮助用户在支持的 AI 对话站点
 开发者联系方式：
 
 - 邮箱：ericroosevelttt@163.com
-- GitHub：https://github.com/EricRoosevelt
+- 项目主页：https://ericroosevelt.github.io/mdzz-public-site/
 
 ## 2. 本政策覆盖什么
 
@@ -168,4 +168,4 @@ MD摘摘是一款 Chrome 扩展，用于帮助用户在支持的 AI 对话站点
 如有隐私、权限、数据处理相关问题，请联系：
 
 - 邮箱：ericroosevelttt@163.com
-- GitHub：https://github.com/EricRoosevelt
+- 项目主页：https://ericroosevelt.github.io/mdzz-public-site/
