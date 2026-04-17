@@ -27,7 +27,7 @@ MD摘摘是一个面向 AI 对话重度用户的 Chrome 扩展，用于摘录、
 
 - 问题反馈：<ericroosevelttt@163.com>
 - 开发者邮箱：<ericroosevelttt@163.com>
-- 项目主页：https://ericroosevelt.github.io/mdzz-public-site/
+- 项目主页：<https://ericroosevelt.github.io/mdzz-public-site/>
 
 ## 说明
 
