@@ -23,6 +23,6 @@
 联系方式：
 
 - 邮箱：ericroosevelttt@163.com
-- GitHub：https://github.com/EricRoosevelt
+- 项目主页：https://ericroosevelt.github.io/mdzz-public-site/
 
 Last updated: 2026-04-15
