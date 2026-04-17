@@ -263,4 +263,4 @@ http://127.0.0.1:27123/vault/MD摘摘.md
 
 - 问题反馈：<ericroosevelttt@163.com>
 - 开发者邮箱：<ericroosevelttt@163.com>
-- 项目主页：https://ericroosevelt.github.io/mdzz-public-site/
+- 项目主页：<https://ericroosevelt.github.io/mdzz-public-site/>
