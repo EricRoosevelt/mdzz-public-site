@@ -1,19 +1,19 @@
 ﻿---
 layout: default
-title: 帮助与支持
+title: 帮助文档
 ---
 
-# MD摘摘 帮助与支持
+# MD摘摘 帮助文档
 
-更新时间：2026-04-15
+更新时间：2026-04-20
 
-欢迎使用 MD摘摘。本文档面向首次安装、正在接入集成、或需要快速排障的用户。
+欢迎使用 MD摘摘。本文档面向首次安装、正在接入集成、或在回归测试阶段需要快速排障的用户。
 
 ## 1. 快速开始
 
 ### 1.1 这个扩展能做什么
 
-MD摘摘提供四类核心能力：
+MD摘摘 提供四类核心能力：
 
 - 在支持站点中摘录对话内容到摘摘舱（Workspace）
 - 从已保存内容回到原会话位置
@@ -134,16 +134,20 @@ https://api.notion.com/v1
 常见 Endpoint 示例：
 
 ```text
-http://127.0.0.1:27123/vault/MD摘摘.md
+Vault Base URL: http://127.0.0.1:27123/vault/
+Note Path Template: {{date}}/{{time}}-{{title}}.md
 ```
 
 ### 4.2 配置步骤
 
 1. 打开 `Settings > 接入 Obsidian`
 2. 填写：
-   - Vault Endpoint
+   - Vault Base URL
+   - Note Path Template
    - API Key / Bearer Token（如果启用了鉴权）
 3. 点击“测试连接”
+   - 如果你填写的是自定义域名或自托管地址，扩展会在首次测试时请求该地址的网络访问授权
+   - 静态 `.md` 文件名已禁用；模板至少要包含一个变量，默认会避免覆盖已有笔记
 4. 测试成功后执行保存
 
 ### 4.3 常见错误
@@ -153,6 +157,11 @@ http://127.0.0.1:27123/vault/MD摘摘.md
 - Endpoint 写错
 - 本地服务未启动
 - 本地服务未允许当前来源访问
+
+`目标文件尚不存在`
+
+- 这是可继续推送的提示，不一定表示配置错误
+- 首次推送时，服务应尝试创建目标 Markdown 文件
 
 `扩展缺少目标域名权限，或目标服务拒绝请求`
 
@@ -188,7 +197,15 @@ http://127.0.0.1:27123/vault/MD摘摘.md
 - Qwen Global
 - KIMI
 
-以及一组轻量支持站点。
+轻量支持站点包括：
+
+- ChatGLM
+- Yuanbao
+- Perplexity
+- Le Chat
+- Spark
+- Copilot
+- DeepAI
 
 ### 6.2 不支持站点时会发生什么
 
@@ -264,3 +281,4 @@ http://127.0.0.1:27123/vault/MD摘摘.md
 - 问题反馈：<ericroosevelttt@163.com>
 - 开发者邮箱：<ericroosevelttt@163.com>
 - 项目主页：<https://ericroosevelt.github.io/mdzz-public-site/>
+

@@ -12,7 +12,8 @@ MD摘摘是一个面向 AI 对话重度用户的 Chrome 扩展，用于摘录、
 ## 你可以在这里找到
 
 - [隐私政策](./privacy-policy.md)
-- [帮助与支持](./support.md)
+- [帮助文档](./support.md)
+- [权限说明](./permissions.md)
 - [更新记录](./changelog.md)
 
 ## 核心能力
@@ -27,7 +28,7 @@ MD摘摘是一个面向 AI 对话重度用户的 Chrome 扩展，用于摘录、
 
 - 问题反馈：<ericroosevelttt@163.com>
 - 开发者邮箱：<ericroosevelttt@163.com>
-- 项目主页：<https://ericroosevelt.github.io/mdzz-public-site/>
+- GitHub：<https://github.com/EricRoosevelt>
 
 ## 说明
 
