@@ -5,13 +5,13 @@ title: 隐私政策
 
 # MD摘摘 隐私政策
 
-更新时间：2026-04-20
+更新时间：2026-05-07
 
-> 本文档为扩展内与公开页面共用版本，用于 Chrome Web Store 上架与后续对外说明。
+> 本文档为扩展内与公开页面共用版本，用于 Microsoft Edge Add-ons 等扩展商店上架与后续对外说明。
 
 ## 1. 我们是谁
 
-MD摘摘 是一款 Chrome 扩展，用于帮助用户在支持的 AI 对话站点中摘录内容、管理提示词、导出文档并接入个人知识工具。
+MD摘摘 是一款浏览器扩展（适用于 Microsoft Edge、Chrome 等 Chromium 浏览器），用于帮助用户在支持的 AI 对话站点中摘录内容、管理提示词、导出文档并接入个人知识工具。
 
 开发者联系方式：
 
@@ -50,8 +50,8 @@ MD摘摘 是一款 Chrome 扩展，用于帮助用户在支持的 AI 对话站�
 - 划词捕获开关
 - 复制捕获开关
 - 主题设置
-- Notion 接入配置
-- Obsidian 接入配置
+- Notion 接入配置（如 API Endpoint、Internal Integration Token、Database ID）
+- Obsidian 接入配置（如 Base URL、库路径模板、API Key / Bearer Token）
 
 ### 3.3 技术性错误信息
 
