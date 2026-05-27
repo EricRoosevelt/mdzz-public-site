@@ -5,7 +5,7 @@ title: 帮助文档
 
 # MD摘摘 帮助文档
 
-更新时间：2026-05-07
+更新时间：2026-05-27
 
 欢迎使用 MD摘摘。本文档面向首次安装、正在接入集成、或在回归测试阶段需要快速排障的用户。
 
@@ -193,19 +193,21 @@ Note Path Template: {{date}}/{{time}}-{{title}}.md
 - Grok
 - DeepSeek
 - Doubao
-- Qwen
+- 通义千问（Qwen）
 - Qwen Global
 - KIMI
+- Yuanbao
 
 轻量支持站点包括：
 
 - ChatGLM
-- Yuanbao
 - Perplexity
 - Le Chat
 - Spark
 - Copilot
 - DeepAI
+
+0.2.3 对 Yuanbao、Doubao、Qwen Global、Gemini、KIMI 等站点的目录、复制捕获、定位和提示词注入适配做了增强。
 
 ### 6.2 不支持站点时会发生什么
 
@@ -228,7 +230,7 @@ Note Path Template: {{date}}/{{time}}-{{title}}.md
 
 ### 7.2 当前版本如何完成摘录
 
-0.2.2 当前版本统一通过页面内可见入口、复制摘录和侧边栏操作完成主要流程。
+0.2.3 当前版本统一通过页面内可见入口、复制摘录、时间轴目录和侧边栏操作完成主要流程。
 
 如果某个页面入口暂时不可用，请优先：
 
